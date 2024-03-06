@@ -3,6 +3,9 @@
         android:label="route_tracker_app"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
+         <meta-data android:name="com.google.android.geo.API_KEY"
+               android:value="AIzaSyCH4zUtX7UgQU2cBbMVAYLCHQJEQR3vY_M"/>
+        <activity
         <activity
             android:name=".MainActivity"
             android:exported="true"
